@@ -23,7 +23,7 @@
       },
       "desiredCapabilities" : {
 	  "chromeOptions" : {
-          "args" : ["--headless", "--disable-gpu"]          
+          "args" : ["--headless", "--no-sandbox", "--disable-gpu"]          
         },
         "browserName" : "chrome",
         "loggingPrefs": {"driver": "INFO", "server": "OFF", "browser": "INFO"}
